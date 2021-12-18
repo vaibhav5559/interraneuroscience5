@@ -27,6 +27,8 @@ login = driver.find_element_by_xpath('/html/body/div/div[1]/form/div[3]/button')
 login.click()
 time.sleep(1)
 
+aa = driver.find_elements_by_css_selector()
+
 # forgot_password = driver.find_element_by_xpath('/html/body/div/div[1]/form/div[3]/div/button')
 # forgot_password.click()
 # time.sleep(4)
